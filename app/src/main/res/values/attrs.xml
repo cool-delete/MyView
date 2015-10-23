@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="NumText">
+
+
+        <attr name="LineNum" format="integer"/>
+        <attr name="xScorll" format="boolean"/>
+
+
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,34 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <lovejazzie.myview.v1.Myview
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+    <!-- gone参数是隐藏 invisible是不可见 但保留空间 -->
+    <lovejazzie.myview.v2.LogicView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <lovejazzie.myview.v3.LogicView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <lovejazzie.myview.v4.NumText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        myview:xScorll="true"
+        myview:LineNum="4"/>
+</FrameLayout>
